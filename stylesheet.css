@@ -18,16 +18,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 #adjustBack {
   background-color: rgba(0, 0, 0, 0.4);
   height: 400px;
-  padding: 10px;
 }
 #webHeader1 {
   font-size: 60px;
   text-align: center;
-  font-weight: 900;
+  font-weight: 700;
   margin: 10px;
 }
 .fontPropReg {
@@ -45,4 +45,49 @@ a {
   background-color: #ff5959;
   border-radius: 5px;
   border: none;
+}
+.ashColor {
+  color: #707070;
+}
+.blackColor {
+  color: #121212;
+}
+.middleSections {
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+#webHeader2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#fiveDiv {
+  display: flex;
+  font-size: 25px;
+  font-weight: 700;
+}
+.taka {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 110px;
+  width: 123px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#selected {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 1px solid #ff5959;
+}
+input {
+  width: 84%;
+  border: none;
+  border-bottom: 1px solid #bcbaba;
+  margin: 7%;
+  text-align: center;
+  padding: 10px;
 }
