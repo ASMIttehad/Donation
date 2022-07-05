@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  margin: 0;
 }
 #adjustBack {
   background-color: rgba(0, 0, 0, 0.4);
@@ -53,14 +54,15 @@ a {
   color: #121212;
 }
 .middleSections {
-  height: 692px;
+  height: 650px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0;
 }
-#webHeader2 {
+.webHeader2 {
   font-size: 45px;
   font-weight: 700;
 }
@@ -90,4 +92,28 @@ input {
   margin: 7%;
   text-align: center;
   padding: 10px;
+}
+#donatePlan {
+  height: 450px;
+  width: 80%;
+  display: flex;
+  margin-bottom: 50px;
+}
+.plan {
+  width: 30%;
+  margin: 2%;
+  padding: 5% 2%;
+}
+#plan1 {
+  background-color: #4f9da610;
+}
+#plan2 {
+  background-color: #ff595910;
+}
+#plan3 {
+  background-color: #fff4d6;
+}
+.smallHeader {
+  font-size: 20px;
+  font-weight: 700;
 }
